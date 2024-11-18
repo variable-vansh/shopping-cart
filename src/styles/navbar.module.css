@@ -1,0 +1,69 @@
+@keyframes NavWidth {
+    from {
+    width: 95vw;
+    }
+
+    to {
+        width: 70vw;
+    }
+}
+
+
+.nav{
+        background: rgba(100, 247, 58, 0.72);
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(100, 247, 58, 0.3);
+
+        width: 70vw;
+        height: 15vh;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        animation-name: NavWidth;
+            animation-duration: 0.5s;
+}
+
+.NavBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nav>a{
+    color: black;
+
+    font-size: 30px;
+    text-decoration: none;
+
+    background: rgba(36, 255, 0, 0.63);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.1px);
+        -webkit-backdrop-filter: blur(11.1px);
+
+        padding: 20px 60px;
+        margin: 20px;
+
+}
+
+.nav>a:hover{
+    font-size: 30px;
+        text-decoration: none;
+    
+        background: rgb(114, 255, 93);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.1px);
+        -webkit-backdrop-filter: blur(11.1px);
+        border: 1px solid rgba(36, 255, 0, 0.69);
+    
+        padding: 20px 60px;
+        margin: 20px
+}

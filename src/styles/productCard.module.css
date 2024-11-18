@@ -1,0 +1,81 @@
+.card{
+    height: 25vw;
+    width: 30vh;
+    background-color:white;
+    border-radius: 10px;
+    
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 20px;
+        box-shadow: 0 0 10px 2px lightgreen;
+        padding: 15px;
+    }
+
+    .card:hover{
+        box-shadow: 0 0 20px 4px rgb(93, 230, 93);
+    }
+
+.img{
+    width: 100px;
+height: 100px;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.qty>input{
+    width: 30px;
+    text-align: center;
+
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.addToCartBtn{
+        background: rgba(36, 255, 0, 0.49);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.1px);
+        -webkit-backdrop-filter: blur(11.1px);
+        border: 1px solid rgba(36, 255, 0, 1);
+
+        height: 5vh;
+        width: 10vw;
+}
+
+.addToCartBtn:hover {
+    background: rgba(36, 255, 0, 0.63);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.1px);
+        -webkit-backdrop-filter: blur(11.1px);
+        border: 1px solid rgba(36, 255, 0, 0.69);
+
+    height: 5vh;
+    width: 10vw;
+}
+
+.addToCartBtn:active {
+    background: rgba(24, 181, 0, 0.249);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
+    border: 1px solid rgba(36, 255, 0, 0.69);
+
+    height: 5vh;
+    width: 10vw;
+}
